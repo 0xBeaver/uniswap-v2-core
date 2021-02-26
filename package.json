@@ -1,7 +1,7 @@
 {
   "name": "@uniswap/v2-core",
-  "description": "🎛 Core contracts for the UniswapV2 protocol",
-  "version": "1.0.1",
+  "description": "🎛 Core contracts for the UniswapV2 protocol's refactored version forked by 0xBeaver.",
+  "version": "1.0.1-0xBeaver-fork-1",
   "homepage": "https://uniswap.org",
   "repository": {
     "type": "git",
