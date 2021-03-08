@@ -46,9 +46,9 @@
     "lint:fix": "yarn prettier ./test/*.ts --write",
     "clean": "rimraf ./build/",
     "precompile": "yarn clean",
-    "compile": "waffle .waffle.json",
+    "compile": "yarn hardhat compile",
     "pretest": "yarn compile",
-    "test": "mocha",
+    "test": "yarn hardhat test",
     "prepublishOnly": "yarn test"
   },
   "license": "GPL-3.0-or-later"
